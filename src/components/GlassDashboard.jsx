@@ -73,16 +73,6 @@ const FeaturesOverview = ({ time }) => (
           <h2 className="welcome-title">Heala App Features</h2>
           <p className="welcome-subtitle">Discover the powerful tools for proactive health management.</p>
         </div>
-        <div className="header-stats">
-          <div className="stat-badge">
-            <Activity size={16} />
-            <span>Modern UI</span>
-          </div>
-          <div className="stat-badge">
-            <TrendingUp size={16} />
-            <span>High Fidelity</span>
-          </div>
-        </div>
       </div>
 
       <div className="heala-grid">
@@ -146,16 +136,16 @@ const TopNavigation = ({ time }) => {
         </a>
         
         <div className="header-actions">
-          <div className="time-display">{time.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</div> 
+          
           
           {/* Download Button: NOTE: APK file must be in the public folder */}
           <a 
-            href="/heala_v1.0.0_20251021.apk 00-19-29-833.apk.zip" 
+            href="/heala_1.1.1.apk.zip" 
             className="download-btn"
             // Removing e.preventDefault() to allow the file download to happen
           >
             <Download size={20} />
-            Download App
+            Download
           </a>
 
           <button className="icon-btn">

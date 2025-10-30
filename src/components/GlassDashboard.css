@@ -615,4 +615,20 @@ body {
     .footer-links a {
         font-size: 0.8rem;
     }
+    .download-btn {
+        padding: 5px 20px;
+        background: #30d158; /* Green for Download */
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 1em;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-decoration: none;
+    }
+
 }
