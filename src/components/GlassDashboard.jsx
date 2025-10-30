@@ -150,7 +150,7 @@ const TopNavigation = ({ time }) => {
           
           {/* Download Button: NOTE: APK file must be in the public folder */}
           <a 
-            href="/" 
+            href="/heala_v1.0.0_20251021.apk 00-19-29-833.apk.zip" 
             className="download-btn"
             // Removing e.preventDefault() to allow the file download to happen
           >
